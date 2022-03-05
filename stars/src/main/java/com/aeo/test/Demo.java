@@ -12,9 +12,9 @@ public class Demo {
 
         try {
             // 云 API 密钥 secretId
-            config.put("secretId", "AKIDMr9U5TgxMZZJo3i0gKp6HDtKRRDuJgYI");
+            config.put("secretId", "AKIDMr9U5TgxMZZJo3i0****************");
             // 云 API 密钥 secretKey
-            config.put("secretKey", "knkRu8E8xYzA5kALJ2W0HJ5oIWTVP4Vg");
+            config.put("secretKey", "knkRu8E8xYzA5kAL****************");
             //若需要设置网络代理，则可以如下设置
 //            if (properties.containsKey("https.proxyHost")) {
 //                System.setProperty("https.proxyHost", properties.getProperty("https.proxyHost"));
@@ -25,7 +25,7 @@ public class Demo {
             config.put("durationSeconds", 1800);
 
             // 换成你的 bucket
-            config.put("bucket", "cquptcywx-1300292366");
+            config.put("bucket", "cquptcywx-1300******");
             // 换成 bucket 所在地区
             config.put("region", "ap-chongqing");
 

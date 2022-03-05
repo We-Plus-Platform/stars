@@ -137,9 +137,9 @@ public class ApplyServiceImpl implements ApplyService {
                 return result;
             }
             // 云 API 密钥 secretId
-            config.put("secretId", "AKIDsXzSgkc8Qq2AJBtAICsJVS8AvQecsBm8");
+            config.put("secretId", "AKIDsXzSgkc8Qq2AJBtA****************");
             // 云 API 密钥 secretKey
-            config.put("secretKey", "FEH5dAQQBgwxiCUXM0NUK2TlocjjUEXd");
+            config.put("secretKey", "FEH5dAQQBgwxiCUX****************");
             //若需要设置网络代理，则可以如下设置
 //            if (properties.containsKey("https.proxyHost")) {
 //                System.setProperty("https.proxyHost", properties.getProperty("https.proxyHost"));
@@ -150,7 +150,7 @@ public class ApplyServiceImpl implements ApplyService {
             config.put("durationSeconds", 1800);
 
             // 换成你的 bucket
-            config.put("bucket", "cqupt-estation-1305209768");
+            config.put("bucket", "cqupt-estation-1305******");
             // 换成 bucket 所在地区
             config.put("region", "ap-chongqing");
 
