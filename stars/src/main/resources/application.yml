@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+  tomcat:
+    accept-count: 150
+    max-threads: 250
+spring:
+#  devtools:
+#    restart:
+#      enabled: true
+#      additional-paths: src/main/java
+  datasource:
+    name: springdemo
+    url: jdbc:mysql://localhost:3306/starlast?serverTimezone=UTC #url,www.estationaeolus.xyz,localhost
+    username: root
+    password: estationznp
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.aeo.test.bean
